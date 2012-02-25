@@ -1,0 +1,24 @@
+custom tooltip for jQuery
+
+v 0.1
+
+Author: Greg Davis
+http://www.monsterworksdesign.com/
+
+Takes options of topOffset to help align properly
+and structure to allow the user to indicate their own 
+string of HTML for the structure. To do this, one needs
+to indicate a container with the class of "tooltipContent"
+for the title to be written correctly.
+
+Usage - 
+create a href link with a class of "easyTooltip" and give it a title with the
+information you want in the tooltip.
+Then put in your document.ready:
+
+$easy_tooltip(".easyTooltip", {
+	topOffset: [an integer value],
+	structure: [an HTML string for layout]
+});
+
+All options are optional. Tee-hee.
